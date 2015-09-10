@@ -2,6 +2,41 @@ body {
 	color: #535353;
 	font-size: 13px;
 	line-height: 1.5;
+	text-align: center;
+}
+#wrap{
+	max-width: 770px;
+	margin: 0 auto;
+	text-align: left;
+}
+#wrap img {
+	max-width: 100%;
+	height: auto;
+}
+.itemphoto{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 50px;
+}
+ul{
+	background-color: #88aa00;
+	padding: 10px 20px;
+}
+li{
+	list-style-type: none;
+	display: inline;
+	padding-right: 20px;
+}
+li a:link{
+	color: #ffffff;
+
+}
+li a:visited{
+	color: #eeee00;
+}
+li a:hover{
+	color: #000000;
+	text-decoration: none;
 }
 h2{
 	font-size: 185%;
@@ -13,6 +48,7 @@ h3{
 	padding: 5px;
 	border: 1px solid #668800;
 	font-size: 154%;
+	clear: left;
 }
 h4{
 	font-size: 124%;
@@ -23,6 +59,7 @@ address{
 	text-align: right;
 	border-top: 1px solid #000000;
 	padding-top: 10px;
+	clear: left;
 }
 table{
 	border: 1px solid #666666;
