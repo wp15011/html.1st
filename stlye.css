@@ -79,7 +79,7 @@ td{
 ul{
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding: 1px;
 	font-size: 12px;
 	overflow: hidden;
 	background-color: #88aa00;
@@ -87,7 +87,7 @@ ul{
 li{
 	float: left;
 	/*margin-right: 15px;*/
-	width: 100px;
+	width: 127px;
 	text-align: center;
 	border-right: solid 1px #ffffff;
 }
